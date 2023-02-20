@@ -57,7 +57,7 @@ const MyApp = ({ Component, pageProps }) => {
 
 MyApp.getInitialProps = async (ctx) => {
   const appProps = await App.getInitialProps(ctx);
-  // const categories = await fetchAPI("/categories");
+  const categories = await fetchAPI("/categories");
   // Pass the data to our page via props
   return { ...appProps, pageProps: { categories } };
 };
