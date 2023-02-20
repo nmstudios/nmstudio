@@ -5,7 +5,6 @@ module.exports = {
       "drive.google.com",
       "source.unsplash.com",
       "localhost",
-      "142.93.126.12",
       "dashboard.nmstudio.design",
     ],
   },
