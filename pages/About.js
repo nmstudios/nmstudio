@@ -234,8 +234,7 @@ export default function About({ employees, categories }) {
 }
 
 export async function getStaticProps() {
-//   const employees = await fetchAPI("/employees");
-  const employees = []
+  const employees = await fetchAPI("/employees");
   return {
     props: {
       employees,
