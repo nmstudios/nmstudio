@@ -174,8 +174,8 @@ const ProjectSection = ({ images, text, tIndex }) => {
 };
 
 export async function getStaticPaths() {
-  const projects = await fetchAPI("/projects");
-
+  // const projects = await fetchAPI("/projects");
+  const projects = [];
   return {
     paths: projects.map((project) => ({
       params: {
@@ -188,7 +188,7 @@ export async function getStaticPaths() {
 
 export async function getStaticProps({ params }) {
   // const project = (await fetchAPI(`/projects?slug=${params.slug}`))[0];
-  const project =[];
+  const project = [];
   return {
     props: {
       project,
