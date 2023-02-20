@@ -187,6 +187,7 @@ export async function getStaticPaths() {
 }
 
 export async function getStaticProps({ params }) {
+  // const project = (await fetchAPI(`/projects?slug=${params.slug}`))[0];
   const project =[];
   return {
     props: {

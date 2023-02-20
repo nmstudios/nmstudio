@@ -25,7 +25,8 @@ import { H1, H2, H3, Paragraph } from "@/components/Typography";
 
 export async function getServerSideProps({ params }) {
   const category = (await fetchAPI(`/categories?Name=${params.slug}`))[0];
-  const projects = await fetchAPI(`/projects?category.Name=${params.slug}`);
+  // const projects = await fetchAPI(`/projects?category.Name=${params.slug}`);
+  const projects = [];
   return {
     props: {
       projects,
