@@ -9,6 +9,7 @@
   },
   "dependencies": {
     "@babel/core": "^7.15.5",
+    "@vercel/analytics": "^0.1.10",
     "framer-motion": "^4.1.17",
     "hamburger-react": "^2.4.1",
     "next": "^11.1.2",

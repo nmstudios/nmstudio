@@ -4,6 +4,7 @@ import { createContext } from "react";
 import { fetchAPI } from "@/lib/api";
 import App from "next/app";
 import Head from "next/head";
+import { Analytics } from "@vercel/analytics/react";
 
 export const GlobalContext = createContext({});
 
@@ -51,6 +52,7 @@ const MyApp = ({ Component, pageProps }) => {
         <GlobalStyles />
         <Component {...pageProps} />
       </GlobalContext.Provider>
+      <Analytics />
     </>
   );
 };
@@ -58,7 +60,7 @@ const MyApp = ({ Component, pageProps }) => {
 MyApp.getInitialProps = async (ctx) => {
   const appProps = await App.getInitialProps(ctx);
   // const categories = await fetchAPI("/categories");
-  const categories = []
+  const categories = [];
   // Pass the data to our page via props
   return { ...appProps, pageProps: { categories } };
 };
