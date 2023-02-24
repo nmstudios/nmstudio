@@ -83,8 +83,13 @@ function Hero() {
             fade: [0.6, 0.05, -0.01, 0.9],
           }}
         >
-          Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-          nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat
+          Design embodies mind, body and soul of creation. Design entails a syn-
+          ergy of tangible and intangible, attainable and ephemeral. Design has
+          the ability to transform and translate, incite and induce. At NM
+          studio, Design is meant to do all this and more. Envisioned as a
+          creative envi- ronment rather than a physical space, the NM studio is
+          infused with cre- ative energy that resonates with philosophy and
+          thought. At NM Studio, Design comes alive....
         </HeroSubTitle>
         <Arrow marginTop={"10%"} />
       </HeroImage>

@@ -154,16 +154,16 @@ export default function About({ employees, categories }) {
           </H2>
           <Title marginBottom={"0%"}>NM Studio</Title>
           <SubTitle>
-            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-            nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
-            erat, sed diam voluptua. At vero eos et accusam et justo duo dolores
-            et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est
-            Lorem ipsum dolor sit amet.
+            Design Is Everything”. Architecture is the art and science of
+            designing buildings and other physical structures. A wider deﬁnition
+            often includes the design of the total built environment from the
+            macro level of town planning, urban design, and landscape
+            architecture to the micro level of construction details and, luxury
+            residence to furniture.
           </SubTitle>
           <Arrow marginTop={"10%"} />
         </Hero>
-        <TeamDiv>
-          {/* <Title marginBottom={"10%"}>Meet the Team</Title> */}
+        {/* <TeamDiv>
           <H1
             defaultFontSize={"7rem"}
             tabletFontSize={"5.5rem"}
@@ -226,7 +226,7 @@ export default function About({ employees, categories }) {
                 </Card>
               ))}
           </CardsDiv>
-        </TeamDiv>
+        </TeamDiv> */}
         <Footer />
       </Page>
     </>
@@ -235,7 +235,7 @@ export default function About({ employees, categories }) {
 
 export async function getStaticProps() {
   // const employees = await fetchAPI("/employees");
-  const employees = []
+  const employees = [];
   return {
     props: {
       employees,

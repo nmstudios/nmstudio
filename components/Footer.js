@@ -151,7 +151,6 @@ function Footer() {
                   <Element style={{ lineHeight: "1.5" }}>
                     329 14th Cross Rd, Sadashiva Nagar,
                     <br /> Bengaluru, Karnataka 560080 <br />
-                    +44 345 678 903
                   </Element>
                 </Column>
               </SpecialColumn2>

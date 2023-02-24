@@ -67,11 +67,10 @@ export default function Contact({ categories }) {
           <Navigation categories={categories} />
           <Title style={{ marginBottom: "5%" }}>Get In Touch</Title>
           <Address>
-            johndoe@nmstudio.com <br />
+            projects@nmstudio.design <br />
             329 14th Cross Rd, Sadashiva Nagar,
             <br />
             Bengaluru, Karnataka 560080 <br />
-            +44 345 678 903
           </Address>
         </HeroDiv>
         <Title style={{ marginBottom: "5%" }}>Locate Us</Title>
